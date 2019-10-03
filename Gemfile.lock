@@ -39,6 +39,8 @@ GEM
       ruboty (>= 0.2.0)
     ruboty-response (1.1.1)
       ruboty
+    ruboty-ruby (0.0.2)
+      ruboty
     ruboty-slack_rtm (3.2.0)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
@@ -69,6 +71,7 @@ DEPENDENCIES
   rake
   ruboty-cron
   ruboty-response
+  ruboty-ruby
   ruboty-slack_rtm
 
 BUNDLED WITH
