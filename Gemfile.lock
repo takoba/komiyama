@@ -7,6 +7,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.1, >= 2.1.8)
+    chrono (0.4.0)
+      activesupport
     concurrent-ruby (1.1.5)
     dotenv (2.7.5)
     event_emitter (0.2.6)
@@ -31,6 +33,10 @@ GEM
       dotenv
       mem
       slop
+    ruboty-cron (1.1.0)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
     ruboty-response (1.1.1)
       ruboty
     ruboty-slack_rtm (3.2.0)
@@ -61,6 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-cron
   ruboty-response
   ruboty-slack_rtm
 
