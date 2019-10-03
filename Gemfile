@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "ruboty-slack"
+gem "ruboty-slack_rtm"
