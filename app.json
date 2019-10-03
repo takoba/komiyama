@@ -7,6 +7,10 @@
     "SLACK_TOKEN": {
       "description": "The API token of your ruboty's slack bot user."
     },
+    "RUBOTY_ENV": {
+      "description": "Loaded gem group name for ruboty",
+      "value": "production"
+    },
     "TZ": {
       "description": "Timezone.",
       "value": "Asia/Tokyo"
