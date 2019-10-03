@@ -31,6 +31,8 @@ GEM
       dotenv
       mem
       slop
+    ruboty-response (1.1.1)
+      ruboty
     ruboty-slack_rtm (3.2.0)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
@@ -59,6 +61,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-response
   ruboty-slack_rtm
 
 BUNDLED WITH
